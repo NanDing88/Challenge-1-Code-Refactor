@@ -7,6 +7,7 @@ User Story
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
+
 Acceptance Criteria
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
@@ -19,3 +20,18 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+
+How to Complete the Challenge
+Follow these steps to complete the challenge:
+
+IMPORTANT
+Make sure to clone the starter code repository and make your own repository with the starter code. Do not fork the starter code repository!
+
+Clone your starter code (Links to an external site.).
+
+Refactor the code to meet the Acceptance Criteria.
+
+Make sure your work meets the full list of grading requirements.
+
+Follow the instructions to submit your Challenge for review.
+
