@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+    /* color and font-family added*/
+}
+
+body {
+    background-color: #d9dcd6;
+}
+ 
+/*open header, removed dots in front of each header because it's not id*/
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    /* removed font-family */
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+   /* Removed redudant header selector*/
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /*Replace div to nav*/
+}
+
+header nav ul {
+    list-style-type: none;
+    /*Replace div to nav*/
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    /*Replace div to nav*/
+}
+
+a {
+    text-decoration: none;
+}
+/*closing header*/
+
+/* Hero Section Styling */
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*main content styling*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    /*Replace content to main to match html semantic layout change*/
+}
+
+.main-propositions {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+    /* Article classes in main section selected and declarations consolidated, changed padding to 50px, changed height to 300px */
+}
+
+.main-propositions img{
+    max-height: 200px
+    /*consolidated images in main section under article*/
+}
+
+.main-propositions h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*consolidated the h2 css*/
+
+aside{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+ /*aside element added to match with HTML format*/
+}
+
+.Horiseon-benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Consolidated two class under aside element */
+
+
+.Horiseon-benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Consolidated the <h3> text in aside element */
+
+.Horiseon-benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* consolidated images in article class under main*/
+
+
+
+/*footer styling*/
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+    /*change h2 to h4 to match HTML format*/
+}
